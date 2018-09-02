@@ -1,0 +1,70 @@
+An Example ASCIIDoc Document
+============================
+Meadhbh S. Hamrick <OhMeadhbh@gmail.com>
+{revnumber}, {revdate}
+:description: This example ASCIIDOC document describes how to structure a +
+              basic ASCIIDOC document and make HTML and  PDF versions of +
+              itself.
+
+Abstract
+--------
+{description}
+
+Introduction
+------------
+ASCIIDOC is a markup language which provides a much nicer syntax to produce
+DocBook texts. Using a markdown-like syntax, it is simpler to create and edit
+documents than the traditional DocBook XML schema. For instance, compare these
+two document headers; the first is in XML while the second is in ASCIIDOC.
+
+First, the XML:
+
+  <?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE article PUBLIC
+    "-//OASIS//DTD DocBook XML V4.5//EN"
+    "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+  <article lang="en">
+    <articleinfo>
+      <title>An Example ASCIIDoc Document</title>
+      <date>September 2018</date>
+      <author>
+        <firstname>Meadhbh</firstname>
+        <othername>S.</othername>
+        <surname>Hamrick</surname>
+        <email>OhMeadhbh@gmail.com</email>
+      </author>
+      <authorinitials>MSH</authorinitials>
+      <revhistory>
+        <revision>
+          <revnumber>0.1</revnumber>
+          <date>September 2018</date>
+          <authorinitials>MSH</authorinitials>
+        </revision>
+      </revhistory>
+    </articleinfo>
+
+And now the ASCIIDOC:
+
+  An Example ASCIIDoc Document
+  ============================
+  Meadhbh S. Hamrick <OhMeadhbh@gmail.com>
+  v0.1
+
+It should be clear from looking at the two headers that ASCIIDOC
+documents are smaller, and easier for humans to reason about. But
+ASCIIDOC's simplicity comes at the price of expressability. It's
+sometimes hard to get ASCIIDOC to render _exactly_ the way you want.
+
+That's where this document comes in. It's a simple example with
+reasonable style defaults you can use as the starting point for
+creating a "real" document.
+
+Before You Begin
+~~~~~~~~~~~~~~~~
+
+Before you can use this document, you'll need to have a few packages
+installed. Ubuntu users can install the required packages with these
+commands:
+
+  sudo apt-get install asciidoc python-pip
+  sudo pip install WeasyPrint
