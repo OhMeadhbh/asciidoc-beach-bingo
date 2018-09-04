@@ -96,7 +96,8 @@ One of the goals of this project is to provide a sample ASCIIDOC
 document so users can see examples of common ASCIIDOC concepts and
 components.
 
-You can view the ASCIIDOC source of the document you are reading now
-at +insert URL here+. A blank template with a few blank sections can
-be found at +insert URL here+.
+You can view the ASCIIDOC source of the document you are reading now at
++https://github.com/OhMeadhbh/asciidoc-beach-bingo/blob/master/index.adoc+.
+A blank template with a few blank sections can be found at
++https://github.com/OhMeadhbh/asciidoc-beach-bingo/blob/master/template.adoc+.
 
