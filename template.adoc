@@ -1,0 +1,56 @@
+= An ASCIIDOC Template =
+Your Name Here <you@example.com>
+{revnumber}, {revdate}
+:abstract: This is a sample ASCIIDOC template. Just erase all the +
+           boiler-plate text and replace it with your own.
+
+== Abstract ==
+
+{abstract}
+
+== Introduction ==
+
+Maybe type a few sentences here describing what you're going to tell the
+audience. Bonus points for calling out who you think the audience should
+be.
+
+== Chapter 1 ==
+
+Look! A Chapter. Maybe make an introductory point here. Or introduce the
+characters and a foreshadowing event from the antagonist.
+
+== Chapter 2 ==
+
+Here is another chapter. If you were writing a narrative, this is where the
+``context changing mid-point'' would occur.
+
+=== Section 2.1 : Appropos of Nothing ===
+
+One thing that's cool to do sometimes is list some data in a pre-formatted
+section. It's great for source code, but useless for narratives.
+
+----
+// Here's some source code. Note that I started the pre-formatted
+// block with some dashes. I'll end the block the same way.
+
+#include <stdio.h>
+
+int main( int argc, char *argv[] ) {
+  printf( "Hello World!\n" );
+  exit( 0 );
+}
+----
+
+=== Section 2.2 ===
+
+If you have one sub-section, it's good to have a second one. Otherwise
+just integrate the one sub-section into its parent.
+
+== Chapter 3 ==
+
+Finally the last chapter. By now you should have told them a bunch of stuff
+and here's where you tie it all together. Or maybe not.
+
+== Conclusion ==
+
+Maybe you want a concluding chapter to tie it all together.

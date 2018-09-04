@@ -68,3 +68,35 @@ commands:
 
   sudo apt-get install asciidoc python-pip
   sudo pip install WeasyPrint
+
+this is an important thing.
+
+Building The Document
+---------------------
+
+The +Makefile+ included in the package will use the +asciidoc+ command
+to build .html and .pdf files from all .adoc files in the root
+directory of the project. the +make clean+ command will erase the .html and
+.pdf files it built. Here's a summary:
+
+* *+make+* will build a .html and a .pdf file for each .adoc file in the
+  project root directory.
+
+* *+make clean+* will erase the .html and .pdf files build with +make+.
+
+* *+make index.html+* will build only the .html file.
+
+* *+make index.pdf+* will build the .html and .pdf files associated only with
+  +index.adoc+.
+
+Creating an ASCIIDOC Document
+-----------------------------
+
+One of the goals of this project is to provide a sample ASCIIDOC
+document so users can see examples of common ASCIIDOC concepts and
+components.
+
+You can view the ASCIIDOC source of the document you are reading now
+at +insert URL here+. A blank template with a few blank sections can
+be found at +insert URL here+.
+

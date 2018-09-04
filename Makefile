@@ -24,7 +24,8 @@ clean :
 %.html : %.adoc
 #	asciidoc -a linkcss -a stylesdir=css -b html5 -o $@ $<
 	asciidoc \
-    -a linkcss -a stylesdir=css \
+    -a icons -a data-uri \
+    -a linkcss -a stylesdir=css -a scriptsdir=js \
     -a revnumber=`git log -n 1 --format=format:"%h" HEAD -p -- $< | head -1` \
     -a revdate=`git log -n 1 --date=short --format=format:"%ad" HEAD -p -- $< | head -1` \
     -b html5 -o $@ $<
